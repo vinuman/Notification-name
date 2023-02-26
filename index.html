@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Notifications page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <!-- <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style> -->
+</head>
+<body>
+
+  <main class="container">
+    <nav>
+      <div class="notification">
+        <h1>Notifications</h1><span id="notification-count"></span>
+      </div>
+      <button id="mark-button"> Mark all as read</button>
+    </nav>
+
+    <div class="cards-container">
+      <div class="cards card1">
+        <div class="left">
+          <img src="avatar-mark-webber.webp" alt="profile" width="45">
+        </div>
+        <div class="right">
+          <p class="description"><strong class="name">Mark Webber </strong>reacted to your recent post<strong class="notification-item"> My first tournament today!</strong></p>
+          <p class="timeline">1m ago</p>
+        </div>
+      </div>
+      <div class="cards card2">
+        <div class="left">
+          <img src="avatar-angela-gray.webp" alt="profile" width="45">
+        </div>
+        <div class="right">
+          <p class="description"><strong class="name">Angela Gray </strong>followed you</p>
+          <p class="timeline">5m ago</p>
+        </div>
+      </div>
+      <div class="cards card3">
+        <div class="left">
+          <img src="avatar-jacob-thompson.webp" alt="profile" width="45">
+        </div>
+        <div class="right">
+          <p class="description"><strong class="name">Jacob Thompson </strong> has joined your group <strong class="notification-item"> Chess Club</strong></p>
+          <p class="timeline">1 day ago</p>
+        </div>
+      </div>
+      <div class="cards card4">
+        
+        <div class="left">
+          <img src="avatar-rizky-hasanuddin.webp" alt="profile" width="45">
+        </div>
+        <div class="right">
+          <p class="description"><strong class="name">Rizky Hasanuddin </strong>sent you a private message</p>
+          <p class="timeline">5 days ago</p>
+          <p class=" message">Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and 
+            I'm already having lots of fun and improving my game.</p>
+        </div>
+        
+      </div>
+      <div class="cards card5">
+        <div class="left">
+          <img src="avatar-kimberly-smith.webp" alt="profile" width="45">
+        </div>
+        <div class="right">
+          <p class="description"><strong class="name">Kimberly Smith </strong>commented on your picture</p>
+          <p class="timeline">1 week ago</p>
+          <img src="image-chess.webp" width="45">
+        </div>
+      </div>
+      <div class="cards card6">
+        <div class="left">
+          <img src="avatar-anna-kim.webp" alt="profile" width="45">
+        </div>
+        <div class="right">
+          <p class="description"><strong class="name">Anna Kim </strong>left the group<strong class="notification-item"> Chess Club</strong></p>
+          <p class="timeline">2 weeks ago</p>
+        </div>
+      </div>
+    </div>
+
+    
+   
+    
+  </main>
+
+  
+  <script src="script.js"></script>
+</body>
+</html>
